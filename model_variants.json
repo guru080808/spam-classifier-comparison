@@ -1,0 +1,305 @@
+{
+  "selection_data": "training partition only (3680 rows)",
+  "cross_validation": "three stratified folds, shuffled with random_state=135",
+  "selection_metric": "mean F1 for spam (1)",
+  "results": [
+    {
+      "family": "Decision Tree",
+      "pruning": "unpruned",
+      "criterion": "gini",
+      "max_depth": null,
+      "min_samples_leaf": 1,
+      "ccp_alpha": 0.0,
+      "cv_f1_mean": 0.8843506998598804,
+      "cv_f1_std": 0.002887622473663434,
+      "cv_mcc_mean": 0.8096139008152642
+    },
+    {
+      "family": "Decision Tree",
+      "pruning": "pre-pruned",
+      "criterion": "gini",
+      "max_depth": 8,
+      "min_samples_leaf": 5,
+      "ccp_alpha": 0.0,
+      "cv_f1_mean": 0.8840614340863137,
+      "cv_f1_std": 0.003153972432641709,
+      "cv_mcc_mean": 0.8139311502839819
+    },
+    {
+      "family": "Decision Tree",
+      "pruning": "pre-pruned",
+      "criterion": "gini",
+      "max_depth": 5,
+      "min_samples_leaf": 10,
+      "ccp_alpha": 0.0,
+      "cv_f1_mean": 0.8636043255243907,
+      "cv_f1_std": 0.0063300162759076595,
+      "cv_mcc_mean": 0.7829426738167621
+    },
+    {
+      "family": "Decision Tree",
+      "pruning": "post-pruned",
+      "criterion": "gini",
+      "max_depth": null,
+      "min_samples_leaf": 1,
+      "ccp_alpha": 0.001,
+      "cv_f1_mean": 0.8922650396821551,
+      "cv_f1_std": 0.0046873362564186045,
+      "cv_mcc_mean": 0.8243633601821684
+    },
+    {
+      "family": "Decision Tree",
+      "pruning": "post-pruned",
+      "criterion": "gini",
+      "max_depth": null,
+      "min_samples_leaf": 1,
+      "ccp_alpha": 0.005,
+      "cv_f1_mean": 0.8659359663839038,
+      "cv_f1_std": 0.0017550904309239135,
+      "cv_mcc_mean": 0.7852240094552156
+    },
+    {
+      "family": "Decision Tree",
+      "pruning": "unpruned",
+      "criterion": "entropy",
+      "max_depth": null,
+      "min_samples_leaf": 1,
+      "ccp_alpha": 0.0,
+      "cv_f1_mean": 0.9022084627833787,
+      "cv_f1_std": 0.00583286883576493,
+      "cv_mcc_mean": 0.8386612684181257
+    },
+    {
+      "family": "Decision Tree",
+      "pruning": "pre-pruned",
+      "criterion": "entropy",
+      "max_depth": 8,
+      "min_samples_leaf": 5,
+      "ccp_alpha": 0.0,
+      "cv_f1_mean": 0.889216795798366,
+      "cv_f1_std": 0.006243255527282113,
+      "cv_mcc_mean": 0.8205288527834526
+    },
+    {
+      "family": "Decision Tree",
+      "pruning": "pre-pruned",
+      "criterion": "entropy",
+      "max_depth": 5,
+      "min_samples_leaf": 10,
+      "ccp_alpha": 0.0,
+      "cv_f1_mean": 0.8645629271185061,
+      "cv_f1_std": 0.01109553597570765,
+      "cv_mcc_mean": 0.788282465970568
+    },
+    {
+      "family": "Decision Tree",
+      "pruning": "post-pruned",
+      "criterion": "entropy",
+      "max_depth": null,
+      "min_samples_leaf": 1,
+      "ccp_alpha": 0.001,
+      "cv_f1_mean": 0.904114102173271,
+      "cv_f1_std": 0.006920388454375732,
+      "cv_mcc_mean": 0.842321868703045
+    },
+    {
+      "family": "Decision Tree",
+      "pruning": "post-pruned",
+      "criterion": "entropy",
+      "max_depth": null,
+      "min_samples_leaf": 1,
+      "ccp_alpha": 0.005,
+      "cv_f1_mean": 0.8970178792533338,
+      "cv_f1_std": 0.012700433970512764,
+      "cv_mcc_mean": 0.8329666892021211
+    },
+    {
+      "family": "KNN",
+      "neighbors": 3,
+      "weights": "uniform",
+      "distance": "Manhattan",
+      "cv_f1_mean": 0.8737403516566694,
+      "cv_f1_std": 0.009667472161373586,
+      "cv_mcc_mean": 0.8008145662214642
+    },
+    {
+      "family": "KNN",
+      "neighbors": 3,
+      "weights": "uniform",
+      "distance": "Euclidean",
+      "cv_f1_mean": 0.8686771412434325,
+      "cv_f1_std": 0.010493735567593879,
+      "cv_mcc_mean": 0.7863488548188141
+    },
+    {
+      "family": "KNN",
+      "neighbors": 3,
+      "weights": "distance",
+      "distance": "Manhattan",
+      "cv_f1_mean": 0.8857644077629782,
+      "cv_f1_std": 0.0037510144322953015,
+      "cv_mcc_mean": 0.8179814199500823
+    },
+    {
+      "family": "KNN",
+      "neighbors": 3,
+      "weights": "distance",
+      "distance": "Euclidean",
+      "cv_f1_mean": 0.8804446328643238,
+      "cv_f1_std": 0.012844623093145475,
+      "cv_mcc_mean": 0.80391851259252
+    },
+    {
+      "family": "KNN",
+      "neighbors": 5,
+      "weights": "uniform",
+      "distance": "Manhattan",
+      "cv_f1_mean": 0.8705910785522514,
+      "cv_f1_std": 0.014424980193405103,
+      "cv_mcc_mean": 0.7990065863702425
+    },
+    {
+      "family": "KNN",
+      "neighbors": 5,
+      "weights": "uniform",
+      "distance": "Euclidean",
+      "cv_f1_mean": 0.8693400736207799,
+      "cv_f1_std": 0.00373755870086506,
+      "cv_mcc_mean": 0.7899768899900629
+    },
+    {
+      "family": "KNN",
+      "neighbors": 5,
+      "weights": "distance",
+      "distance": "Manhattan",
+      "cv_f1_mean": 0.8865387875113275,
+      "cv_f1_std": 0.005755133346896451,
+      "cv_mcc_mean": 0.8209705207725643
+    },
+    {
+      "family": "KNN",
+      "neighbors": 5,
+      "weights": "distance",
+      "distance": "Euclidean",
+      "cv_f1_mean": 0.8899962210838434,
+      "cv_f1_std": 0.003736988597529171,
+      "cv_mcc_mean": 0.8206571405965629
+    },
+    {
+      "family": "KNN",
+      "neighbors": 7,
+      "weights": "uniform",
+      "distance": "Manhattan",
+      "cv_f1_mean": 0.8659368956041683,
+      "cv_f1_std": 0.015783214479806202,
+      "cv_mcc_mean": 0.7951194626180236
+    },
+    {
+      "family": "KNN",
+      "neighbors": 7,
+      "weights": "uniform",
+      "distance": "Euclidean",
+      "cv_f1_mean": 0.8672951103058629,
+      "cv_f1_std": 0.0038614635205502,
+      "cv_mcc_mean": 0.7865188542654167
+    },
+    {
+      "family": "KNN",
+      "neighbors": 7,
+      "weights": "distance",
+      "distance": "Manhattan",
+      "cv_f1_mean": 0.8885633646014203,
+      "cv_f1_std": 0.010324167649914102,
+      "cv_mcc_mean": 0.8259383519447718
+    },
+    {
+      "family": "KNN",
+      "neighbors": 7,
+      "weights": "distance",
+      "distance": "Euclidean",
+      "cv_f1_mean": 0.8903759599838258,
+      "cv_f1_std": 0.0040416754717602305,
+      "cv_mcc_mean": 0.8212398389377572
+    },
+    {
+      "family": "KNN",
+      "neighbors": 11,
+      "weights": "uniform",
+      "distance": "Manhattan",
+      "cv_f1_mean": 0.857845065285877,
+      "cv_f1_std": 0.01652222641575708,
+      "cv_mcc_mean": 0.7898917490679546
+    },
+    {
+      "family": "KNN",
+      "neighbors": 11,
+      "weights": "uniform",
+      "distance": "Euclidean",
+      "cv_f1_mean": 0.8700239529970508,
+      "cv_f1_std": 0.006745090193828359,
+      "cv_mcc_mean": 0.7928950331213152
+    },
+    {
+      "family": "KNN",
+      "neighbors": 11,
+      "weights": "distance",
+      "distance": "Manhattan",
+      "cv_f1_mean": 0.8890688727730175,
+      "cv_f1_std": 0.00753960011765743,
+      "cv_mcc_mean": 0.830605915629902
+    },
+    {
+      "family": "KNN",
+      "neighbors": 11,
+      "weights": "distance",
+      "distance": "Euclidean",
+      "cv_f1_mean": 0.8999648615311645,
+      "cv_f1_std": 0.0030743026935327543,
+      "cv_mcc_mean": 0.8372115652312545
+    }
+  ],
+  "selected_alternatives": {
+    "Decision Tree": {
+      "settings": {
+        "family": "Decision Tree",
+        "pruning": "post-pruned",
+        "criterion": "entropy",
+        "max_depth": null,
+        "min_samples_leaf": 1,
+        "ccp_alpha": 0.001,
+        "cv_f1_mean": 0.904114102173271,
+        "cv_f1_std": 0.006920388454375732,
+        "cv_mcc_mean": 0.842321868703045
+      },
+      "model_file": "decision_tree_entropy_pruned.joblib",
+      "held_out_metrics": {
+        "Accuracy": 0.9261672095548317,
+        "AUC": 0.9143833249405098,
+        "Precision": 0.9178470254957507,
+        "Recall": 0.8925619834710744,
+        "F1": 0.9050279329608939,
+        "MCC": 0.8448769273892294
+      }
+    },
+    "KNN": {
+      "settings": {
+        "family": "KNN",
+        "neighbors": 11,
+        "weights": "distance",
+        "distance": "Euclidean",
+        "cv_f1_mean": 0.8999648615311645,
+        "cv_f1_std": 0.0030743026935327543,
+        "cv_mcc_mean": 0.8372115652312545
+      },
+      "model_file": "knn_tuned.joblib",
+      "held_out_metrics": {
+        "Accuracy": 0.9174809989142236,
+        "AUC": 0.9659695686088648,
+        "Precision": 0.9283582089552239,
+        "Recall": 0.8567493112947658,
+        "F1": 0.8911174785100286,
+        "MCC": 0.8265784829598046
+      }
+    }
+  }
+}
